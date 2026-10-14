@@ -1,0 +1,381 @@
+.* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252525;
+}
+.navbar {
+    width: 76.8%;
+    height: 120px;
+    padding: 25px 11%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 9px;
+    margin-top: 9px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width:170px;
+    height: 170px;
+    margin-top:-3%;
+    display: flex;
+    border-radius:10%;
+    margin-left:-7%;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    padding-top: 38px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #c9a45c;
+}
+/* Hero Section */
+.hero {
+    width: 80%;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.72),
+            rgba(0, 0, 0, 0.15)
+        ),
+        url("https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=85");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 650px;
+    color: white;
+}
+
+.subtitle {
+    color: #e3b98e;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    line-height: 1.2;
+    margin-bottom: 22px;
+}
+
+.description {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #eeeeee;
+}
+
+.main-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #bd8956;
+    color: white;
+    padding: 15px 28px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+/* Themes Section */
+.themes {
+    padding: 90px 8%;
+    background-color: #faf8f5;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-heading p {
+    color: #bd8956;
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.section-heading h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.section-heading span {
+    color: #777777;
+    font-size: 15px;
+}
+
+/* Theme Cards */
+.theme-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.theme-card {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.theme-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.theme-card img {
+    width: 100%;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.4s;
+}
+
+.theme-card:hover img {
+    transform: scale(1.04);
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.card-content p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.card-content a {
+    text-decoration: none;
+    color: #bd8956;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-content a:hover {
+    color: #70451f;
+}
+
+/* Design Banner */
+.design-banner {
+    min-height: 400px;
+    padding: 70px 10%;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    color: white;
+}
+
+.banner-content p {
+    color: #e3b98e;
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+.banner-content h2 {
+    font-size: 42px;
+    line-height: 1.3;
+    margin-bottom: 28px;
+}
+
+/* Footer */
+.footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 50px 20px 20px;
+}
+
+.footer h2 {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.footer > p {
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #bd8956;
+}
+
+.footer .copyright {
+    border-top: 1px solid #444444;
+    padding-top: 20px;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+/* Tablet View */
+@media (max-width: 992px) {
+    .navbar {
+        padding: 20px 5%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .navbar nav {
+        gap: 18px;
+    }
+
+    .theme-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .themes {
+        padding: 70px 5%;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+        flex-direction: column;
+        padding: 22px 15px;
+    }
+
+    .navbar nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .navbar nav a {
+        font-size: 13px;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .hero {
+        min-height: 480px;
+        padding: 50px 7%;
+        background-position: center;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .themes {
+        padding: 55px 6%;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+    .section-heading span {
+        line-height: 1.7;
+    }
+
+    .theme-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .theme-card img {
+        height: 230px;
+    }
+
+    .design-banner {
+        min-height: 330px;
+        padding: 45px 7%;
+    }
+
+    .banner-content h2 {
+        font-size: 33px;
+    }
+
+    .footer-links {
+        gap: 18px;
+    }
+}

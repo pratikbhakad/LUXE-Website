@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE Design Studio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+   
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        <img src="fix2.png" alt="LUXE Interior Design">
+    </a>
+
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="Residential.html">Residential</a>
+        <a href="Commercial.html">Commercial</a>
+        <a href="Home-Theatre.html">Home-Theatre</a>
+        <a href="Theme-Based.html">Theme-Based</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+</header>
+
+    <!-- HERO SLIDER -->
+    <section class="hero">
+        <div class="hero-slides" id="heroSlides"></div>
+
+        <div class="hero-content">
+            <h1>Capturing The Essence Of The Area</h1>
+            <h2>And The Client's Spirit Are Essential To Effective Design.</h2>
+        </div>
+
+        <div class="slider-arrows">
+            <button type="button" id="prevBtn" aria-label="Previous slide">
+                &#10094;
+            </button>
+            <button type="button" id="nextBtn" aria-label="Next slide">
+                &#10095;
+            </button>
+        </div>
+
+        <div class="slide-number">
+            <span id="currentNumber">01</span>
+            <span class="line"></span>
+            <span>03</span>
+        </div>
+    </section>
+
+    <!-- CONTACT BUTTONS -->
+    <div class="contact-buttons">
+        <a href="#" class="arrow-btn" aria-label="More options">&#8594;</a>
+
+        <a href="https://wa.me/" class="contact-btn whatsapp"
+           aria-label="WhatsApp" title="WhatsApp">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4A8 8 0 1 1 20 11.5Z"/>
+                <path d="M9 8.5c.5 2 2.5 4 4.5 4.5l1.2-1.2 2 1c-.2 1.5-1 2.2-2.5 2.2-3.5-.3-7-3.8-7.2-7.2 0-1.5.7-2.3 2.2-2.5l1 2Z"/>
+            </svg>
+        </a>
+
+        <a href="tel:+917208101088" class="contact-btn phone"
+           aria-label="Call" title="Call">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 3h4l2 5-3 2a15 15 0 0 0 5 5l2-3 5 2v4c0 1-1 2-2 2C10 20 4 14 4 5c0-1 1-2 2-2Z"/>
+            </svg>
+        </a>
+    </div>
+    <div class="praju"></div>
+
+    <!-- ABOUT SECTION -->
+    <!-- <section class="about-section" id="about">
+        <div class="about-container">
+
+            <div class="about-image">
+                <img
+                    src="https://ikbdesignstudio.com/wp-content/uploads/2024/02/tabr-e1709712292406.png"
+                    alt="IKB Design Studio Founders and Award">
+            </div>
+
+            <div class="about-content">
+                <h1>Award Winning Best Interior Design Firm In Mumbai</h1>
+
+                <div class="about-line"></div>
+
+                <p class="abhi">
+                    I.K.B Design Studio Interiors by Khan Bros, is an
+                    avant-garde Interior Design firm based in Mumbai.
+                </p>
+
+                <p class="abhi1">
+                    The studio was founded in 2014 by the Designer Twins
+                    Parvez Khan and Tabrez Khan joining forces to establish
+                    a boutique design studio, aiming to depart from
+                    conventional ideas of luxury to cater to modern,
+                    novel notions of comfort and self-expression.
+                    United by a passion for the poetics of space,
+                    Parvez and Tabrez bring together a combined
+                    experience of over 10 years.
+                </p>
+
+                <p class="abhi2">
+                    IKB Design Studio is an award-winning firm titled:
+                    "Outstanding &amp; Trusted Interior Design &amp; Project
+                    Execution Firm of the Year 2023" by National Architecture
+                    and Interior Design Excellence Awards and Conference India.
+                </p>
+
+                <p class="abhi3">
+                    Mr. Parvez Khan and Tabrez Khan are entitled as the
+                    elite "40 Under 40 Elite &amp; Trendsetter Interior
+                    Designer of the Year 2023, India".
+                </p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- DESIGN ETHOS -->
+    <section class="white1">
+        <div class="white2">
+            <h1>Our Design Ethos Aims</h1>
+        </div>
+
+        <h3>
+            Our design ethos aims to create optimism by fusing human
+            emotions with the physical settings. Our customized approach
+            to your project recommends creating areas that draw inspiration
+            from the surrounding landscape, your personal style, and your
+            location. Every time we combine these three inspiration sources,
+            the outcome is unique and well-coordinated, allowing us to bring
+            our clients' feelings to life.
+        </h3>
+
+        <h4>
+            Cross-cultural sampling, artistic combining of design components,
+            textures, materials, and techniques, and their transformation
+            into new design typologies are the creative ethos and design
+            philosophy that drive Createfo'em, making us the best interior
+            design studio in Mumbai.
+        </h4>
+    </section>
+
+    <!-- CLIENT TESTIMONIALS -->
+    <section class="clinte">
+        <div class="clinte1">
+            <h1>Our Client Testimonials</h1>
+            <h4>We are happy to showcase our client's valuable feedback.</h4>
+        </div>
+
+        <section class="reviews">
+            <div class="summary">
+                <div class="brand">
+                    <img
+                        src="luxe-logo.png">
+
+                    <div>
+                        <h2>LUXE Design</h2>
+                        <div class="rating">4.8 <span>★★★★★</span></div>
+                    </div>
+                </div>
+
+                <p style="margin-left:50px">Based on 228 reviews</p>
+                <p style="margin-left:50px">Powered by <span class="google" style="margin-left: 50px;">Google</span></p>
+
+                <a style="margin-left: 50px;" href="https://www.google.com/search?q=IKB+Design+Studio+reviews"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="review-btn">
+                    Review us on Google
+                </a>
+            </div>
+
+            <div class="slider">
+                <button class="arrow prev" type="button"
+                        aria-label="Previous review">&#8249;</button>
+
+                <div class="slider-window">
+                    <div class="slider-track" id="sliderTrack">
+
+                        <div class="review-card">
+                            <span class="google-icon">G</span>
+                            <div class="user">
+                                <div class="avatar initial teal">S</div>
+                                <div>
+                                    <h3>Sujit Rane</h3>
+                                    <p>a year ago</p>
+                                </div>
+                            </div>
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">
+                                Loved their design sense and professional approach.
+                            </p>
+                        </div>
+
+                        <div class="review-card">
+                            <span class="google-icon">G</span>
+                            <div class="user">
+                                <div class="avatar initial blue">R</div>
+                                <div>
+                                    <h3>Rupali Tambe</h3>
+                                    <p>a year ago</p>
+                                </div>
+                            </div>
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">
+                                Highly recommended for interior design.
+                            </p>
+                        </div>
+
+                        <div class="review-card">
+                            <span class="google-icon">G</span>
+                            <div class="user">
+                                <div class="avatar initial teal">S</div>
+                                <div>
+                                    <h3>Sher Mohammed</h3>
+                                    <p>a year ago</p>
+                                </div>
+                            </div>
+                            <div class="stars">★★★★☆</div>
+                            <p class="review-text">
+                                Great design and attention to detail.
+                            </p>
+                        </div>
+
+                        <div class="review-card">
+                            <span class="google-icon">G</span>
+                            <div class="user">
+                                <div class="avatar initial blue">A</div>
+                                <div>
+                                    <h3>Amit Patil</h3>
+                                    <p>a year ago</p>
+                                </div>
+                            </div>
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">
+                                Excellent service and great design!
+                            </p>
+                        </div>
+
+                        <div class="review-card">
+                            <span class="google-icon">G</span>
+                            <div class="user">
+                                <div class="avatar initial teal">P</div>
+                                <div>
+                                    <h3>Priya Sharma</h3>
+                                    <p>a year ago</p>
+                                </div>
+                            </div>
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">
+                                Professional team and beautiful work!
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="arrow next" type="button"
+                        aria-label="Next review">&#8250;</button>
+
+                <div class="dots" id="sliderDots"></div>
+            </div>
+        </section>
+    </section>
+
+   
+   
+<section class="transformation" id="transformation">
+
+    <div class="transform-heading">
+        <span>LUXE INTERIOR DESIGN</span>
+        <h2>From Ordinary to <i>Extraordinary</i></h2>
+        <p>
+            Witness the art of transformation.
+            Discover how thoughtful design turns ordinary spaces
+            into extraordinary experiences.
+        </p>
+    </div>
+
+    <div class="transform-tabs">
+        <button class="transform-tab active" data-room="living" type="button">
+            Living Room
+        </button>
+        <button class="transform-tab" data-room="bedroom" type="button">
+            Bedroom
+        </button>
+        <button class="transform-tab" data-room="kitchen" type="button">
+            Kitchen
+        </button>
+    </div>
+
+    <div class="transform-container">
+
+        <div class="transform-image-box" id="transformBox">
+
+            <img
+                id="beforeImage"
+                class="transform-before"
+                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85"
+                alt="Living room before transformation">
+
+            <div class="transform-after-wrap" id="afterWrap">
+                <img
+                    id="afterImage"
+                    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85"
+                    alt="Living room after transformation">
+            </div>
+
+            <span class="transform-label before-label">BEFORE</span>
+            <span class="transform-label after-label">AFTER</span>
+
+            <input
+                type="range"
+                id="transformRange"
+                class="transform-range"
+                min="0"
+                max="100"
+                value="50"
+                aria-label="Compare before and after">
+
+            <div class="transform-divider" id="transformDivider">
+                <span>↔</span>
+            </div>
+
+        </div>
+
+        <div class="transform-details">
+
+            <div>
+                <span class="transform-project-label">THE TRANSFORMATION</span>
+                <h3 id="transformTitle">Modern Luxury Living Room</h3>
+                <p id="transformDescription">
+                    A thoughtfully designed living space combining
+                    warm textures, elegant furniture and beautiful lighting.
+                </p>
+            </div>
+
+            <div class="transform-features">
+                <div>
+                    <span>01</span>
+                    <p id="featureOne">Elegant Wall Finishes</p>
+                </div>
+                <div>
+                    <span>02</span>
+                    <p id="featureTwo">Warm Ambient Lighting</p>
+                </div>
+                <div>
+                    <span>03</span>
+                    <p id="featureThree">Bespoke Furniture</p>
+                </div>
+            </div>
+
+            <a href="contact.html" class="transform-cta">
+                TRANSFORM YOUR SPACE <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="transform-footer">
+        <span>DESIGNED WITH PURPOSE</span>
+        <span>TIMELESS BY DESIGN ✳</span>
+    </div>
+
+</section>
+
+
+    <!-- FOOTER -->
+     <footer class="site-footer">
+
+        <h3>LUXE INTERIOR DESIGN</h3>
+
+        <p>Crafting beautiful spaces. Designing better experiences.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="Residential.html">Residential</a>
+            <a href="Commercial.html">Commercial</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 LUXE Interior Design. All rights reserved.
+        </p>
+
+    </footer>
+
+    <div class="consultation-overlay" id="consultationOverlay">
+        <div class="consultation-popup">
+
+            <button type="button" class="popup-close" id="popupClose"
+                    aria-label="Close popup">&times;</button>
+
+
+                   <!--  form -->
+
+            <div class="consultation-form">
+                <h2>GET FREE DESIGN CONSULTATION</h2>
+
+                <form id="consultationForm">
+
+                    <div class="form-group">
+                        <label class="group-title">Property Type</label>
+
+                        <label class="option">
+                            <input type="checkbox" name="propertyType" value="1 BHK">
+                            <span>1 BHK </span>
+                        </label>
+
+                        <label class="option">
+                            <input type="checkbox" name="propertyType" value="2 BHK">
+                            <span>2 BHK</span>
+                        </label>
+
+                        <label class="option">
+                            <input type="checkbox" name="propertyType" value="3 BHK">
+                            <span>3 BHK</span>
+                        </label>
+
+                        <label class="option">
+                            <input type="checkbox" name="propertyType" value="4+ BHK/Duplex">
+                            <span>4+ BHK</span>
+                        </label>
+                    </div>
+
+                    <div class="form-group location-group">
+                        <label class="group-title">Location</label>
+
+                        <label class="option">
+                            <input type="radio" name="location" value="Mumbai" required>
+                            <span>Mumbai</span>
+                        </label>
+
+                        <label class="option">
+                            <input type="radio" name="location" value="Other">
+                            <span>Pune</span>
+                        </label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" name="name"
+                               placeholder="Name" aria-label="Name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="tel" name="mobile"
+                               placeholder="Mobile Number"
+                               aria-label="Mobile Number"
+                               pattern="[6-9][0-9]{9}"
+                               maxlength="10"
+                               inputmode="numeric"
+                               required>
+                    </div>
+
+                    <label class="whatsapp-option">
+                        <input type="checkbox" name="whatsappUpdates">
+                        <span>I would like to receive updates on WhatsApp.</span>
+                    </label>
+
+                    <button type="submit" class="consultation-submit">
+                        Book Now..
+                    </button>
+
+                    <p class="form-message" id="formMessage" role="status"></p>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
